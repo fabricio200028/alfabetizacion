@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    margin-top: -20px;
+}
+
+.p-5{
+    padding: 10%;
+}
+
+nav {
+    color: #fff;
+    background:#111221;
+    margin: none;
+    height:50px; 
+  }
+
+  h1{
+    padding: 1%;
+  }
+
+
