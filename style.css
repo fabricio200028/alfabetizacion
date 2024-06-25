@@ -31,7 +31,6 @@ nav {
   .imgboton{
     width: 40px;
     height: 40px;
-    margin: 3px 10%;
 
   }
 
@@ -44,6 +43,12 @@ nav {
     text-align: center;
   }
 
+  button{
+    margin: 3px 10%;
+    border: none;  
+    background-color: transparent;
+
+  }
 
 
 
