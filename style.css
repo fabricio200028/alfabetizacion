@@ -1,6 +1,6 @@
 body{
-    margin: 0%;
-    margin-top: -20px;
+    margin: 0px;
+    overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -9,10 +9,16 @@ body{
 }
 
 nav {
+    display: flex;
     color: #fff;
     background:#111221;
     margin: none;
     height:50px; 
+  }
+
+  .mnav{
+    display: flex;
+    justify-content: space-between; 
   }
 
   h1{
