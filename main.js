@@ -6,8 +6,8 @@ function mostrar() {
         anclasDiv.style.display = "none";
     }
 }
-let ctx = document.getElementById('myChart');
 
+let ctx = document.getElementById('myChart');
 let myChart = new Chart(ctx, {
     type: 'bar',
     data: {
