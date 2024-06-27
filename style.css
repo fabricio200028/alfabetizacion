@@ -7,6 +7,7 @@ body{
 
 .p-5{
     padding: 10%;
+
 }
 
 nav {
@@ -25,6 +26,21 @@ nav {
     display: flex;
     justify-content: space-between;
   }
+
+  .encabezado_img{
+    background-image: url(img/img_01.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:azure;
+  }
+  .encabezado_img h2{
+    font-size: 30px;
+    text-shadow: 0 0 10px blue, 0 0 15px blue;
+    }
 
   h1{
     margin: 1% 2%;
@@ -50,15 +66,13 @@ nav {
     border: none;  
     background-color: transparent;
   }
-
-  .contain {
-    display: flex;
-    justify-content: center;
-}
-  .miniportada {
-    margin-bottom: 0;
+  .grafic{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin:auto;
   }
-  
-  canvas {
-    max-width: 80%;
-}
+  img{
+    width: 75%;
+    
+  }
